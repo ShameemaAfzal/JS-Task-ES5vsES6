@@ -48,6 +48,12 @@ let Resume_data = [
 
 console.log(JSON.stringify(Resume_data));
 
+//fro loop
+for(var i=0;i<Resume_data.length;i++)
+    {
+        console.log(Resume_data[i])
+    }
+
 // forEach loop
    Resume_data.forEach((item)=>{
     console.log(item)
